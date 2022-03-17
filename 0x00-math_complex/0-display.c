@@ -1,5 +1,12 @@
 #include "holberton.h"
 
+/**
+ * display_complex_number - displays the complex numbers
+ * @c: struct
+ *
+ * Return: void
+ */
+
 void display_complex_number(complex c)
 {
 	if (c.re && c.im)
