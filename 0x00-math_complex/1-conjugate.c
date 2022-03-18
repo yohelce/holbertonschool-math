@@ -10,9 +10,6 @@
 
 complex conjugate(complex c)
 {
-	if (c.im)
-		c.im *= -1;
-	else 
-		return (c);
+	c.im *= -1;
 	return (c);
 }
