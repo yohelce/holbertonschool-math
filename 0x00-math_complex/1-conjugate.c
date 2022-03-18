@@ -11,6 +11,8 @@
 complex conjugate(complex c)
 {
 	if (c.im)
-		c.im = c.im * (-1);
+		c.im *= -1;
+	else 
+		return (c);
 	return (c);
 }
