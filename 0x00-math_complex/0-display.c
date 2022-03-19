@@ -35,7 +35,7 @@ void display_complex_number(complex c)
 			if (c.im != 1)
 				printf("%.0fi\n", c.im);
 			else
-				printf("i");
+				printf("i\n");
 		}
 		if (c.im == 0)
 			printf("%.0f\n", c.im);
@@ -44,7 +44,7 @@ void display_complex_number(complex c)
 			if (c.im != -1)
 				printf("-%.0fi\n", -(c.im));
 			else
-				printf("-i");
+				printf("-i\n");
 		}
 	}
 	if (c.re == 0 && c.im == 0)
