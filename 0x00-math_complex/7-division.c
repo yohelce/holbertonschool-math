@@ -11,13 +11,13 @@
 
 double power(double a, double n)
 {
-        double pow = a;
+	double pow = a;
 
-        for ( ; n > 1; n--)
-                pow = pow * a;
-        for ( ; n == 0; )
-                return (1);
-        return (pow);
+	for ( ; n > 1; n--)
+		pow = pow * a;
+	for ( ; n == 0; )
+		return (1);
+	return (pow);
 }
 
 /**
